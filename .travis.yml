@@ -1,6 +1,9 @@
 # http://travis-ci.org/#!/jupyter-widgets/ipywidgets
 language: python
 dist: xenial
+arch: 
+  - amd64
+  - arm64
 python:
     - 2.7
     - 3.4
